@@ -18,8 +18,8 @@ services:
   mongo:
     image: mongo
     environment:
-      - MONGO_INITDB_ROOT_USERNAME=hea17h
-      - MONGO_INITDB_ROOT_PASSWORD=hea17hpw
+      - MONGO_INITDB_ROOT_USERNAME=
+      - MONGO_INITDB_ROOT_PASSWORD=
     volumes:
       - mongo-db:/data/db
     ports:

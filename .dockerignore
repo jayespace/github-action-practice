@@ -1,0 +1,7 @@
+node_modules
+Dockerfile
+terraform
+.dockerignore
+.git
+.gitignore
+.env

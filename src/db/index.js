@@ -1,4 +1,4 @@
-/* eslint-disable no-console */
+
 import mongoose from 'mongoose';
 import categoryModel from './models/categoryModel.js';
 import foodModel from './models/foodModel.js';

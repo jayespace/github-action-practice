@@ -4,8 +4,7 @@ import categoryModel from './models/categoryModel.js';
 import foodModel from './models/foodModel.js';
 import 'dotenv/config';
 
-const DB_URL = "mongodb+srv://jaye:jaye@hea17h.yormn.mongodb.net/test"
-    // process.env.MONGODB_URL || 'Mongodb서버 주소가 설정되지 않았습니다';
+const DB_URL = process.env.MONGODB_URL || 'Mongodb서버 주소가 설정되지 않았습니다';
 
 mongoose.connect(DB_URL);
 const db = mongoose.connection;
